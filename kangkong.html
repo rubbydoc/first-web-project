@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="post.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2b60a4aa3.js" crossorigin="anonymous"></script>
+    
+    <title>FRAGILE NOTEPAD</title>
+
+  </head>
+  <body>
+      <nav class="navbar sticky">
+          <div class="content">
+            <div class="logo">
+              <a href="index.html">FRAGILE NOTEPAD</a>
+            </div>
+            <ul class="menu-list">
+              <div class="icon cancel-btn">
+                <i class="fas fa-times"></i>
+              </div>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="articles.html">Blogs</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+           
+                            
+                <div class="search">
+                    <input type="text" placeholder=" ">
+                    <div>
+                        <svg>
+                            <use xlink:href="#path">
+                        </svg>
+                    </div>
+                </div>
+                    
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" id="path">
+                        <path d="M32.9418651,-20.6880772 C37.9418651,-20.6880772 40.9418651,-16.6880772 40.9418651,-12.6880772 C40.9418651,-8.68807717 37.9418651,-4.68807717 32.9418651,-4.68807717 C27.9418651,-4.68807717 24.9418651,-8.68807717 24.9418651,-12.6880772 C24.9418651,-16.6880772 27.9418651,-20.6880772 32.9418651,-20.6880772 L32.9418651,-29.870624 C32.9418651,-30.3676803 33.3448089,-30.770624 33.8418651,-30.770624 C34.08056,-30.770624 34.3094785,-30.6758029 34.4782612,-30.5070201 L141.371843,76.386562" transform="translate(83.156854, 22.171573) rotate(-225.000000) translate(-83.156854, -22.171573)"></path>
+                    </symbol>
+                </svg>
+                    
+
+                <a class="dribbble" href="https://dribbble.com/shots/5547403-Search-input-animation" target="_blank"><img src="https://dribbble.com/assets/logo-small-2x-9fe74d2ad7b25fba0f50168523c15fda4c35534f9ea0b1011179275383035439.png" alt=""></a>
+
+            </ul>
+            <div class="icon menu-btn">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+  
+      
+      
+          
+             
+              
+
+                  
+          <script>
+              const body = document.querySelector("body");
+              const navbar = document.querySelector(".navbar");
+              const menuBtn = document.querySelector(".menu-btn");
+              const cancelBtn = document.querySelector(".cancel-btn");
+              menuBtn.onclick = ()=>{
+                navbar.classList.add("show");
+                menuBtn.classList.add("hide");
+                body.classList.add("disabled");
+              }
+              cancelBtn.onclick = ()=>{
+                body.classList.remove("disabled");
+                navbar.classList.remove("show");
+                menuBtn.classList.remove("hide");
+              }
+              
+            </script>
+                  
+                  
+          
+             
+            
+          
+            <section class="info">
+  
+                <h1>Articles</h1>
+              </section>
+              
+
+              <div class="blog-post">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-adobong-kangkong-1-1200x900.jpg)">
+                </div>
+                  
+                </div>
+                <div class="description">
+                  <h1>I Can Eat This Food Everyday</h1>
+                  <ul class="details">
+                    <li class="author">Rubby Jane Doclara</li>
+                    <li class="date">5 Feb 2022</li>
+                    <li class="tags">
+                      <ul>
+                        <li><a href="foodCategory.html">Food</a></li>
+                       
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                
+                </div>
+              
+              </div>
+
+              <div class="post">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel quam elementum pulvinar etiam. Risus ultricies tristique nulla aliquet enim tortor. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Tortor at auctor urna nunc id cursus metus. Purus sit amet luctus venenatis lectus magna fringilla. Elit sed vulputate mi sit amet mauris commodo. Vulputate mi sit amet mauris commodo quis. Facilisis sed odio morbi quis commodo. Semper quis lectus nulla at. Tincidunt nunc pulvinar sapien et. Feugiat in ante metus dictum at tempor commodo ullamcorper. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Urna id volutpat lacus laoreet non curabitur gravida arcu. Viverra orci sagittis eu volutpat. Gravida dictum fusce ut placerat orci nulla pellentesque. <br> <br>
+                    Purus sit amet volutpat consequat mauris. Ac turpis egestas integer eget. Ullamcorper sit amet risus nullam eget felis. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Amet nisl purus in mollis nunc sed id. Nisi lacus sed viverra tellus in hac. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Odio eu feugiat pretium nibh ipsum consequat. Gravida neque convallis a cras semper auctor neque. Odio aenean sed adipiscing diam donec. Sodales ut etiam sit amet. Ultricies tristique nulla aliquet enim tortor at. Fringilla urna porttitor rhoncus dolor purus non enim praesent. Auctor neque vitae tempus quam pellentesque nec nam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Lectus magna fringilla urna porttitor rhoncus dolor purus non. <br> <br>
+                    Ut ornare lectus sit amet est placerat in. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Fames ac turpis egestas integer. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Quis vel eros donec ac odio. In hac habitasse platea dictumst vestibulum rhoncus. Est placerat in egestas erat imperdiet sed euismod nisi. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Mi ipsum faucibus vitae aliquet nec ullamcorper. Purus sit amet volutpat consequat. Tellus in hac habitasse platea dictumst vestibulum. Dictumst quisque sagittis purus sit amet volutpat. Felis bibendum ut tristique et egestas. Quam elementum pulvinar etiam non. Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Id leo in vitae turpis massa. <br> <br>
+                    Ut ornare lectus sit amet est placerat in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Porttitor rhoncus dolor purus non enim. In hac habitasse platea dictumst vestibulum rhoncus est. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Sit amet facilisis magna etiam tempor orci. Velit scelerisque in dictum non consectetur a. Id diam maecenas ultricies mi eget mauris pharetra et. Et odio pellentesque diam volutpat commodo sed egestas egestas. Volutpat sed cras ornare arcu. Etiam sit amet nisl purus in. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Neque vitae tempus quam pellentesque nec. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Tristique magna sit amet purus gravida. A scelerisque purus semper eget. <br>
+                    At ultrices mi tempus imperdiet nulla malesuada. Ante in nibh mauris cursus mattis molestie a iaculis at. Nullam non nisi est sit amet facilisis magna etiam. Ultricies integer quis auctor elit sed vulputate mi sit amet. Vitae auctor eu augue ut lectus arcu bibendum at. Aenean euismod elementum nisi quis eleifend. A cras semper auctor neque vitae tempus. Dolor sit amet consectetur adipiscing elit ut. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Tortor consequat id porta nibh venenatis cras sed felis eget. Sed sed risus pretium quam vulputate dignissim suspendisse in. Ut faucibus pulvinar elementum integer enim neque. <br></p>
+    
+
+                   <div class="comments">
+                    <p>10 Comments</p>
+                  </div>
+
+<div class="firstUser">
+  <img src="data:image/jpeg;base64,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" alt="">
+<p class="name">Jane Doclara <br>
+</p>
+<p class="date">JANUARY 1, 2022 <br> 12:00 AM</p>
+</div>
+<div class="firstUserComment">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+</div>
+                   
+                  </div>
+                
+                 
+
+                  <div class="more-posts">
+                    <div class="custom-select">
+                        <div>
+                            <select id="category-dropdown" >
+                                <option value="">View Posts by Category...</option>
+                                <option value="foodCategory.html"> Food</option>
+                                <option value="travelCategory.html">Travel</option>
+                                <option value="lifestyleCategory.html">Lifestyle</option>
+                                <option value="personalCategory.html">Personal</option>
+                                <option value="musicCategory.html">Music</option>
+                                <option value="storyCategory.html">Short Stories</option>
+                                <option value="randomCategory.html">Random Things</option>
+                                <option value="epicCategory.html">Epic Moments</option>
+                                <option value="poemCategory.html">Poems</option>
+                                <option value="healthCategory.html">Health</option>
+                                                                
+                                                                
+                                                        </select>
+                                                </div>
+                    </div>
+                    <a class="btn" href="archives.html">View Archives</a>
+                </div>
+                
+                <script>
+                  document.getElementById("category-dropdown").onchange = function() {
+                      if (this.selectedIndex!==0) {
+                          window.location.href = this.value;
+                      }        
+                  };
+                </script>
+                
+
+
+
+             
+
+        <div class="subscribe">
+          <div class="card">
+          <h2 class="title">SUBSCRIBE</h2>
+          <p class="text">to our newsletter. Please enter your email and press enter</p>
+          <svg class="line" viewBox="0 0 340 110">
+            <path d="m 20,62 h 300 c 5.07319,0 8,1.670904 8,7 0,5.329096 -2.73823,7 -8,7 -24.40669,0 -93.75,-28.499714 -145,-28.499714 -13.29554,0 -24.13778,10.98399 -24.13778,24.285714 0,13.301723 10.44743,24.237614 23.78064,24.285714 13.33321,0.0481 24.42131,-10.813044 24.42131,-24.071428 0,-13.258384 -10.82413,-24.5 -24.06417,-24.5 -46.6329,0 -128.373847,2.554751 -134.142712,-0.714429 -6.526479,-3.774256 26.308057,-20.255082 34.999996,-9.643143 4.903867,7.581481 -24.727058,37.748285 -20.714286,41.071429 5.780539,4.585834 41.58559,-45.698305 42.857143,-44.285714 1.788869,2.052458 -26.042394,35.843635 -22.946429,38.125 1.087036,0.763507 10.593224,-22.190977 18.660715,-15.982143 2.161943,1.842808 -9.534575,14.127851 -5.357143,17.5 1.588146,1.140006 10.876171,-3.735915 12.142856,-6.785715 4.42342,-9.489522 20.62535,-12.439397 19.28571,-14.285714 -2.58964,-1.846317 -18.17185,8.21922 -19.64285,13.571429 -0.667432,2.762923 0.003,7.475416 2.94643,8.214285 8.14685,2.711358 14.2347,-20.563532 17.03825,-18.181019 1.15308,0.952082 -9.13954,14.501641 -5.34183,17.823876 2.19057,1.447235 9.43338,-3.42711 12.5,-6.785714 3.06662,-3.090747 5.78766,-12.398459 8.21429,-10.714286 1.47961,1.226912 -10.72645,15.162377 -8.83929,16.964286 1.05558,0.891874 7.64823,-23.58045 18.69629,-17.321714 3.66503,2.357086 -9.07288,14.177268 -5.57129,17.143143 1.5373,1.537304 5.32487,0.597632 11.78572,-4.910715 6.46085,-5.508346 21.19805,-33.351382 23.30357,-32.053571 1.48053,1.208524 -25.5179,35.835564 -23.92858,37.589286 1.58933,1.843006 16.25079,-25.121326 22.76786,-19.107143 7.23135,7.353468 -15.77045,11.573353 -15.71428,13.839286 0.0562,2.53379 4.17316,5.462985 7.67857,5.803571 3.50541,0.340586 2.8953,-2.53583 9.82143,-6.517857 6.92613,-3.982027 30.53313,-16.352772 32.5,-14.642857 0.97719,0.939557 -22.54277,16.133127 -9.28571,18.928571 4.90102,0.88702 18.14747,-15.862165 19.28571,-15 1.11657,0.829669 -20.39244,29.235854 -16.42857,32.142857 1.05257,0.88407 8.21065,-16.928914 15.99374,-23.200825 7.7831,-6.271911 19.42199,-11.35048 18.64912,-12.51346 -1.83981,-2.419325 -12.6417,6.752679 -13.57143,11.428571 -0.92973,4.675892 0.64137,9.149855 5,9.642857 4.35863,0.493002 7.78601,-9.507611 8.76532,-12.843682 0.97931,-3.336071 3.34127,-6.934435 1.21487,-7.266498 -1.76926,-0.242777 -3.15302,6.045268 -2.95091,8.311776 0.20211,2.266508 0.10348,6.38561 3.43432,6.756934 2.88441,0.371324 11.99135,-16.657801 14.89354,-14.95853 1.31485,0.967808 -14.93493,13.219228 -8.21429,17.678572 6.72064,4.459344 20.01106,-20.369503 21.25,-19.196429 2.81731,2.873219 -15.21778,16.979645 -9.46428,20.803571 9.94993,6.770354 35.49608,-39.767387 37.85714,-37.5 3.2143,2.809447 -16.97303,19.144321 -16.42857,24.642858 0.54446,5.498537 2.14464,-0.117739 2.5,2.5 0.35536,2.617739 -3.91382,11.36668 -6.07143,10.714285 -2.06832,-0.384538 -0.81191,-3.639808 -0.0893,-4.910715 0.72263,-1.270907 1.69643,3.571429 1.69643,3.571429" />
+          </svg>
+          <svg class="line2" viewBox="0 0 50 52">
+            <path style="fill:none;stroke:#000000;stroke-width:2" d="m 38.391765,17.110953 -16.66751,16.667516 -7.81073,-7.201053 c -2.56639,-2.366065 -3.80148,-3.574166 -6.56097,-5.722314 l -4.6426304,-1.736535"/>
+          </svg>
+          <form class="form" action="">
+            <input class="input" type="email">
+          </form>
+        </div>
+
+        <script>const card = document.querySelector('.card'),
+          input = document.querySelector('.input'),
+          line2 = document.querySelector('.line2');
+    document.querySelector('.form').addEventListener('submit', function(e) {
+      input.blur();
+      card.classList.add('saving');
+      e.preventDefault();
+    });
+    line2.addEventListener('animationend', function(e) {
+      setTimeout(() => {
+        card.classList.add('done');
+      }, 1000);
+    });</script>
+
+        </div>
+        
+
+
+
+<footer class="footer">
+  <div class="social">
+    <a href="#"><span>Facebook</span></a>
+    <a href="#"><span>Twitter</span></a>
+    <a href="#"><span>Google+</span></a>
+    <a href="#"><span>Github</span></a>
+    <a href="#"><span>Dribbble</span></a>
+    <a href="#"><span>CodePen</span></a>
+  </div>
+
+    
+      <div class="copyright">
+        <p>COPYRIGHT ©2021 ALL RIGHTS RESERVED</p>
+      </div>
+      
+    
+      
+    
+  
+
+
+</footer>
+       
+
+
+
+
+
+
+
+
+
+
+   
+   
+  </body>
+</html>

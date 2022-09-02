@@ -1,0 +1,265 @@
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    margin-top: 150px;
+    margin-bottom: 2.6%;
+    background: #fff;
+    line-height: 2;
+    font-family: sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+    
+  }
+  .blog-post a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .blog-post a:hover {
+    color: #b074b8;
+  }
+  
+  .blog-post .meta {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+  }
+  .blog-post .photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+  }
+  .blog-post .details,
+  .blog-post .details ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+  }
+  .blog-post .details {
+    position: absolute;
+    
+    margin: auto;
+   
+    color: black;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .blog-post .details ul li {
+    display: inline-block;
+  }
+  .blog-post .details .author:before {
+    font-family: FontAwesome;
+    margin-right: 10px;
+    content: "";
+  }
+  .blog-post .details .date:before {
+    font-family: FontAwesome;
+    margin-right: 10px;
+    content: "";
+  }
+  .blog-post .details .tags ul:before {
+    font-family: FontAwesome;
+    content: "";
+    margin-right: 10px;
+  }
+  .blog-post .details .tags li {
+    margin-right: 2px;
+  }
+
+  .blog-post .description {
+   padding-left: 5rem;
+   padding-right: 5rem;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+  }
+ 
+  .blog-post .description h1 {
+    line-height: 1;
+    margin: 0;
+    font-size: 3rem;
+    font-family:'Poppins';
+    color: #64547c;
+  }
+ 
+ 
+@media(max-width:639px){
+  
+  .blog-post .description h1{
+    font-size: 30px;
+   
+  }
+
+  .blog-post .description{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 200px
+  }
+
+ .post p{
+   margin-top: -50px;
+   font-size: 10px;
+   
+   
+ }
+
+ 
+
+ .firstUserComment p{
+   margin-top: 2px
+ }
+
+ .firstUser .name {
+   margin-top: 1px
+ }
+
+ .firstUser .date{
+   margin-top: 2px
+ }
+}
+ 
+
+
+  @media (min-width: 640px) {
+    .blog-post {
+      flex-direction: row;
+      max-width: 700px;
+    }
+    .blog-post .meta {
+      flex-basis: 40%;
+      height: auto;
+    }
+    .blog-post .description {
+      flex-basis: 60%;
+    }
+    .blog-post .description:before {
+      transform: skewX(-3deg);
+      content: "";
+      background: #fff;
+      width: 30px;
+      position: absolute;
+      left: -10px;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    .blog-post.alt {
+      flex-direction: row-reverse;
+    }
+    .blog-post.alt .description:before {
+      left: inherit;
+      right: -10px;
+      transform: skew(3deg);
+    }
+    .blog-post.alt .details {
+      padding-left: 25px;
+    }
+  }
+
+
+
+
+  .post{
+      width: 70%;
+      
+     
+      margin: 100px auto;
+  }
+
+  .post p{
+      line-height: 1.8;
+      font-weight: 400;
+      color: #313b44;
+      font-family: 'Poppins';
+      font-size: 18px;
+     
+  }
+
+  .comments{
+    margin-top: 5%;
+    
+  }
+
+  .firstUser img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    
+  }
+  
+
+  .firstUser{
+    
+    margin-top: 30px;
+  }
+
+
+
+.firstUser .name {
+  font-weight: 600; 
+  font-size: 16px; 
+  position: relative;
+  left: 80px;
+  top: -50px;
+  width: 125px
+  
+  
+}
+
+.firstUser .date {
+ 
+  font-size: 13px; 
+  color: #64547c;
+  letter-spacing: .1em; 
+  font-weight: 500;
+  position:relative;
+  left: 80px;
+  top: -55px;
+  width:125px;
+  
+}
+
+
+
+.firstUserComment{
+  position: relative;
+  left: 80px;
+  top: -50px;
+  width: 85%;
+  
+}
+
+
+.firstUserComment p{
+  font-size: 15px;
+
+}
+
+@media(max-width:400px){
+  .firstUserComment {
+    
+    left: 30px
+  }
+
+  .firstUserComment p{
+    font-size: 13px;
+  }
+}
+
+.comments p{
+  font-weight:700; 
+  font-size:1.75rem; 
+  margin-top:100px
+
+}
+
